@@ -57,7 +57,7 @@
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
     <Reference Include="WindowsHookLib">
-      <HintPath>..\..\..\..\..\Downloads\sacnrkeybinderevo-master\sacnrkeybinderevo-master\WindowsHookLib.dll</HintPath>
+      <HintPath>.\WindowsHookLib.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

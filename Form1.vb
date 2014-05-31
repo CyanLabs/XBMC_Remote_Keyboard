@@ -61,7 +61,7 @@ Public Class Form1
             ElseIf e.KeyCode = Keys.P Or e.KeyCode = Keys.Space Then
                 If Not IsStopped() Then SendJSON("Player.PlayPause", """playerid"":1")
             ElseIf e.KeyCode = Keys.Enter Then
-                If Not IsStopped() Then SendJSON("Input.select")
+                SendJSON("Input.select")
             ElseIf e.KeyCode = Keys.Escape Then
                 SendJSON("Input.Home")
             ElseIf e.KeyCode = Keys.Back Then
